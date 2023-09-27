@@ -1,0 +1,563 @@
+body{font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+*{
+	margin: 0;
+padding: 0}
+
+/*Heder Section Start*/
+.container {
+	width: 1140px;
+	margin: auto;
+	padding: auto;
+}
+
+.container-large{
+	width: 1240px;
+	margin: auto;
+	background-image: url('../img/Background-2.png');
+	background-repeat: no-repeat;
+	background: cover;
+}
+
+
+header{ 
+width:100%;
+display: flex;
+justify-content: space-between;
+
+
+
+ }
+
+.logo{
+	float: left;
+	margin: 40px 0 0 50px;
+}
+
+.menu{ 
+float: right; }
+
+.delivery{
+	margin: 40px 50px 0 0;
+	display: flex;
+	float: right;
+}
+
+.delivery p{
+	margin: 8px 0 0 20px;
+	font-family: Montserrat ;
+ 	font-weight: 700;
+ 	font-size: 16px;
+ 	color: #3d2514;
+}
+
+.navbar ul{
+  margin:0 ;
+  padding: 0 50px 0 0;
+  float: right;
+
+}
+
+ .navbar ul li{
+ 	font-family: Bebas Neue ;
+ 	font-size: 21px;
+ 	font-weight: 700;
+  list-style: none;
+  display: inline-block;
+  margin-top: 15px;
+  padding-left: 40px;
+  text-transform: uppercase;
+ letter-spacing: 4px;
+color: #3d2514;
+}
+
+/*Heder Section end*/
+
+.secondpart{
+width:100%;
+display: flex;	
+flex-basis: 50%;
+text-transform: uppercase;
+} 
+
+
+.left h1{
+	font-family: Bebas Neue ;
+ 	font-size: 23.6px;
+ 	margin: 178px -250px 0 26px;
+color: #3d2514;
+}
+
+.left h2{
+	font-family: Alfa Slab One ;
+ 	font-size: 114.3px;
+ 	margin: 10px -250px 0 10px;
+color: #3d2514;
+text-shadow: 2px 2px white ;
+}
+
+.left h3{
+	font-family: Alfa Slab One ;
+ 	font-size: 56.5px;
+ 	margin: -25px -250px 0 10px;
+color: #3d2514;
+text-shadow: 2px 2px white ;
+}
+
+.right{
+	
+ font-family: Bebas Neue;
+ position: relative;
+  text-align: center;
+  color: white;
+}
+
+.right img{
+	  width: 100%;
+    margin: -70px 0 0 100px;
+}
+
+
+
+.top-left {
+	font-size: 56px;
+  position: absolute;
+top: 460px;
+    left: 330px;
+}
+
+.top-right {
+	font-size: 37px;
+  position: absolute;
+   top: 478px;
+    right: 435px;
+}
+
+
+.centered {
+	font-size: 37px;
+  position: absolute;
+     top: 515px;
+    left: 337px;
+}
+/*  Heder Section secondpart end  */
+
+
+.thirdpart{
+	width: 100%;
+	font-family: Bebas Neue;
+	color: white;
+	display: flex;
+	flex-basis: 50%;
+	margin-top: -30px;
+	padding: auto;
+	text-transform: uppercase;
+}
+
+.left-1{
+	width: 50%;
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+.left-1 img{
+	width: 100%;
+}
+.left-1 h1{
+	font-size: 25px;
+  position: absolute;
+   top: 20px;
+    left: 20px;
+}
+
+.left-1 h2{
+	font-size: 41.67px;
+  position: absolute;
+   top: 40px;
+    left: 20px;
+}
+
+.right-1{
+	width: 50%;
+	float: right;
+	margin-left: 20px;
+}
+
+.right-1 img{
+	width: 100%;
+}
+
+.right-1 .up{
+	position: relative;
+}
+.right-1 .up h1{
+	font-size: 25px;
+  position: absolute;
+   top: 20px;
+    left: 20px;
+}
+
+.right-1 .up h2{
+	font-size: 41.67px;
+  position: absolute;
+   top: 40px;
+    left:20px;
+}
+
+.right-1 .up h3{
+	font-size: 41.67px;
+  position: absolute;
+   top: 80px;
+    left: 20px;
+}
+
+.right-1 .down{
+	position: relative;
+	margin-top: 28px;
+}
+.right-1 .down h1{
+	font-size: 25px;
+  position: absolute;
+   top: 20px;
+    left: 20px;
+}
+
+.right-1 .down h2{
+	font-size: 41.67px;
+  position: absolute;
+   top: 40px;
+    left:20px;
+}
+
+
+/*  thirdpart end  */
+
+
+.fourthpard{
+	margin-top: 50px;
+	text-align: center;
+	color: #3d2514;
+}
+
+.fourthpard a{
+	background-color: #ffc045;
+	padding: 10px 10px;
+	font-family:Bebas Neue ;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #3d2514;
+}
+
+.fourthpard h2{
+	font-family:Alfa Slab One ;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.fourthpard h3{
+	font-family:Montserrat ;
+	font-weight: 400;
+	font-size: 16.67px;
+	margin-top: 20px;
+}
+
+/*  fourthpart end  */
+
+.fifthpart{
+	width: 100%;
+	display: flex;
+	margin-top: 80px;
+	justify-content: space-evenly;
+	align-content: center;
+	text-align: center;
+}
+
+.fifthpart img{
+	width: 100%;
+}
+
+.fifthpart .second{
+	margin-top: -60px;
+}
+.fifthpart h1{
+	font-family: Bebas Neue;
+	font-size: 37.5px;
+	color: #3d2514;
+}
+
+.fifthpart h2{
+	font-family: Montserrat;
+	font-size: 16.67px;
+	color: #3d2514;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.fifthpart a{
+	margin-top: 200px;
+	font-family: Alfa Slab One;
+	font-size: 16.67px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: red;
+	padding: 20px 30px;
+
+}
+
+.fifthpart a:hover{
+	color: black;
+	background-color: gold;
+}
+
+/*  fifthpart end  */
+
+.boxpart{
+	display: flex;
+	flex-basis: 50%;
+	margin-top: 100px;
+	color: #3d2514;
+	box-shadow: 5px;
+	box-shadow: 6px 12px 27px -10px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    margin-top: 100px;
+}
+
+.boxpart:hover{
+	box-shadow: none;
+    transition: 0.5s;
+}
+
+.boxpart .left-2{
+	width: 100%;
+	margin: 60px 0px 0px 60px;
+}
+ 
+
+.boxpart h1{
+	font-family: Bebas Neue;
+	font-size: 29.17px;
+}
+
+.boxpart h2{
+	font-family: Alfa Slab One;
+	font-size: 41.67px;
+}
+
+.boxpart h3{
+	font-family: Montserrat;
+	font-size: 20.83px;
+	font-weight: 400;
+	margin-right: 40px;
+}
+
+.boxpart .right-2{
+	width: 100%;
+	margin: 30px 30px 20px 0px;
+}
+
+.boxpart img{
+	width: 100%;
+}
+
+/*  boxpart end  */
+
+
+.container-2{
+	width: 1240px;
+	padding: auto;
+	margin: auto;
+	background-image: url('../img/Background-form.png');
+	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	position: relative;
+  	justify-content: center;
+
+}
+.formpart-1{
+margin-top: 100px;
+text-align: center;
+color: #3d2514;
+text-transform: uppercase;
+padding-bottom: 130px;
+}
+
+.formpart-1 .left-3{
+	width: 100%;
+}
+.formpart-1 h1{
+	font-family: Bebas Neue;
+	font-size: 29.7px;
+	padding-top: 100px;
+}
+
+.formpart-1 h2{
+	font-family: Alfa Slab One;
+	font-size: 50px ;
+	margin: 5px 0 40px 0;
+}
+.formpart {
+width: 55%;
+display: flex;
+flex-basis: 50%;
+padding: auto;
+margin:auto;
+font-size: 20.83px;
+}
+
+.left-3{
+	margin-right:20px ;
+}
+.right-3{
+	margin-right:20px ;
+}
+.left-3 input{
+   display: block;
+   width: 94%;
+   height: 30px;
+   padding: 12px;
+   margin-bottom: 20px;
+   border-color: 1px solid #EBD2CD impor !important;
+   font-family:Bebas Neue;
+}
+
+.formpart .right-3{
+	width: 100%;
+}
+.right-3 input{
+   display: block;
+   width: 94%;
+   height: 30px;
+   padding: 12px;
+   margin-bottom: 20px;
+   border-color: 1px solid #EBD2CD impor !important;
+   font-family:Bebas Neue;
+   font-size: 20.83px;
+}
+
+.formpart .button {
+	margin-top: 35px;
+}
+
+.formpart .button a{
+	font-family: Alfa Slab One;
+	font-size: 20.83px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: red;
+	padding: 16px 79px;
+	border-radius: 7px;
+}
+
+.formpart-1 .button a:hover{
+	color: black;
+	background-color: gold;
+}
+/*  formpart end  */
+
+
+.bottom{
+	display: flex;
+	flex-basis: 50%;
+	padding: auto;
+	margin: auto;
+	background-image: url('../img/bottom.png');
+	background-repeat: no-repeat;
+   background-size: 100%;
+   position: relative;
+   color: white;
+}
+
+  .left-4{
+  	width: 50%;
+  	padding: 80px 0px 0 40px;
+  	margin-right: 40px;
+  }
+
+  .right-4{
+  	width: 50%;
+  }
+
+.left-4 h1{
+font-family:Montserrat;
+font-weight: 300;
+font-size: 16.67px;
+margin-top: 60px;
+}
+
+.left-4 h2{
+font-family:Bebas Neue ;
+font-size: 16.67px;
+padding: 90px 0 20px 0;;
+}
+
+.right-4{
+	font-size: 20.83px;
+	font-family:Bebas Neue ;
+	color: white;
+}
+
+.icon{
+	display: flex;
+	margin-left: 0px;
+}
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+
+}
+
+.icon ul li a{ text-decoration: none;
+}
+
+.icon ul li a i{ font-size: 30px;
+              color: #000;
+}
+
+.icon ul li:hover {
+    color: skyblue;
+      background :red;
+      transform: translate3d(10px, 0px, 0px);
+  }
+.right-4 a i{ font-size: 30px;
+              color: #fff;
+          }
+.right-4 .address{
+	padding: 230px 0 0 84px;
+}
+
+
+.right-4 .email{
+	padding: 0px 0 0 80px;	
+}
+
+.right-4 .address span{
+	padding: 0px 0 0 17px;
+}
+
+.right-4 .email span{
+	padding: 0px 0 0 8px;
+}
+
+.right-4 ul{
+	padding: 90px 0 0 260px;
+}
+
+.fa-cog {
+  color: white;
+}
